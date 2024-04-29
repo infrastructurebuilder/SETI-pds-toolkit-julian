@@ -7,10 +7,10 @@ parse.c \
 seconds.c \
 tai_et.c \
 utc_tai.c
-g77 -c -fno-second-underscore fjulian.for
+gfortran -c -fno-second-underscore fjulian.for
 
 cc -c fortran.c rlerrors.c rlmemory.c
-g77 -c -fno-second-underscore fstrings.for
+gfortran -c -fno-second-underscore fstrings.for
 
 ar cr julian.a \
 dates.o \
@@ -31,4 +31,4 @@ ranlib julian.a
 
 rm *.o
 
-g77 -o tconvert -fno-second-underscore tconvert.for julian.a
+gfortran -o tconvert -fno-second-underscore tconvert.for julian.a

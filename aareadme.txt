@@ -16,6 +16,8 @@ END
                            Mark R. Showalter
 **********************************************************************
 
+0. NOTE: gfortran used instead of f77
+
 1. INTRODUCTION
 
 The Julian Library comprises a set of C functions for manipulating

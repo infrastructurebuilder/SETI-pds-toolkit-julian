@@ -197,7 +197,7 @@ OBJECT                          = FILE
     INTERCHANGE_FORMAT          = ASCII
     PUBLICATION_DATE            = 2005-02-21
     NOTE                        = "A script to build the Julian
-Library using g77 instead of f77. See AAREADME.TXT for more
+Library using gfortran instead of f77. See AAREADME.TXT for more
 information".
 
   END_OBJECT                    = TEXT
